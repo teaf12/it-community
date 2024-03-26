@@ -1,0 +1,102 @@
+
+/* Start navbar */
+nav {
+    background-color: rgb(2, 2, 2);
+    padding: 30px;
+    font-family: "Times New Roman", Times, serif;
+}
+nav .h1 {
+    margin: 0 ;
+    font-size: 20px;
+    margin-left: 10% !important;
+    margin-top: 5px !important;
+    width: 22%;
+}
+@media (max-width:767px){
+    nav .h1 {
+        margin-left: 1% !important;
+        width: 50% !important;
+        margin-top: 0 !important;
+    }
+    nav p { display: block; }
+}
+@media (min-width:767px) and (max-width:992px){
+    nav .h1 {
+        margin-left: 3% !important;
+        width: 27% !important;
+        margin-top: 0 !important;
+    }
+}
+nav p {
+    display: none;
+    width: 9%;
+    margin: 0 ;
+    margin-left: 40% !important;
+    cursor: pointer;
+    padding: 5px;
+}
+@media (max-width:767px){ 
+    nav p { display: block; } 
+}
+nav .h1 span { color: rgb(144, 192, 209); }
+nav ul {
+    text-align: center;
+    margin: 0;
+    width: 65%;
+}
+@media (max-width:767px){
+    nav ul { width: 100%; }
+    nav ul li { font-size: 8px;}
+    .text {
+        margin-top: 100px !important;
+    }
+}
+@media (min-width:767px) and (max-width:991px){
+    nav ul { width: 80% !important; }
+    nav ul li { font-size: 8px;}
+
+}
+@media (min-width:992px){
+    nav ul { 
+        margin-left: 10%;
+        width: 60%;
+    }
+}
+nav ul li {
+    display: inline-block;
+    font-size: 22px;
+    padding: 20px;
+    margin-left: 1px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+@media (max-width:767px){
+    nav ul li { 
+        display: block;
+        background-color: rgb(18, 15, 15);
+        border: 1px solid rgb(61, 49, 49);
+        text-align: center;
+        width: 100%;
+    }
+}
+@media (min-width:767px) and (max-width:992px){
+    nav ul li {
+        font-size: 18px;
+        padding: 4px;
+        display: inline-block !important;
+    }
+}
+nav ul li a:hover {
+    color: rgb(10, 40, 174);
+}
+.list_style {
+    list-style-type: none;
+    padding: 0;
+}
+.float-l { float: left; }
+.clear_fix { clear: both; }
+/* End navbar */
